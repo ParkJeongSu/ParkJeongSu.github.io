@@ -180,6 +180,9 @@ export const sanitizeConfig = (config) => {
       themes: themes,
       customTheme: customTheme,
     },
+    introduce: {
+      text: config?.introduce?.text,
+    },
   };
 };
 

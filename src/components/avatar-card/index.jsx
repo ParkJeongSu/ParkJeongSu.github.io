@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { fallbackImage, skeleton } from '../../helpers/utils';
 import LazyImage from '../lazy-image';
 
-const AvatarCard = ({ profile, loading }) => {
+const AvatarCard = ({ profile, loading, text }) => {
   return (
     <div className="card shadow-lg compact bg-base-100">
       <div className="grid place-items-center py-8">
@@ -47,6 +47,11 @@ const AvatarCard = ({ profile, loading }) => {
             {loading || !profile
               ? skeleton({ width: 'w-48', height: 'h-5' })
               : profile.bio}
+          </div>
+          <div className="mt-3 text-base-content text-opacity-60 font-mono">
+            {
+              text
+            }
           </div>
         </div>
       </div>

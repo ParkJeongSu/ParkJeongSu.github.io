@@ -9,6 +9,7 @@ import Skill from './skill';
 import Experience from './experience';
 import Education from './education';
 import Project from './project';
+import CompanyProject from './projects';
 import Blog from './blog';
 import {
   genericError,
@@ -156,7 +157,11 @@ const GitProfile = ({ config }) => {
                           themeConfig={sanitizedConfig.themeConfig}
                         />
                       )}
-                      <AvatarCard profile={profile} loading={loading} />
+                      <AvatarCard 
+                        profile={profile} 
+                        loading={loading} 
+                        text={sanitizedConfig.introduce.text}
+                      />
                       <Details
                         profile={profile}
                         loading={loading}
@@ -185,11 +190,12 @@ const GitProfile = ({ config }) => {
                         github={sanitizedConfig.github}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
-                      <Blog
+                      <CompanyProject/>
+                      {/* <Blog
                         loading={loading}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                         blog={sanitizedConfig.blog}
-                      />
+                      /> */}
                     </div>
                   </div>
                 </div>

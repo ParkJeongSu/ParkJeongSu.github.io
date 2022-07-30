@@ -11,7 +11,7 @@ const config = {
     },
   },
   social: {
-    linkedin: 'https://www.linkedin.com/in/jeongsu-park-b37639118/',
+    linkedin: 'jeongsu-park-b37639118',
     twitter: '',
     facebook: 'marrow.Jeongsu',
     instagram: '',
@@ -65,8 +65,8 @@ const config = {
     {
       institution: '가톨릭대학교',
       degree: '컴퓨터정보공학부 학사',
-      from: '2018',
-      to: '2011',
+      from: '2011',
+      to: '2018',
     },
     {
       institution: '광명고등학교',
@@ -144,6 +144,34 @@ const config = {
       '--rounded-box': '3rem',
       '--rounded-btn': '3rem',
     },
+  },
+  introduce : {
+    text : 
+    '안녕하세요 \n'
+    +
+    '저는 부족하지만, 항상 발전하기 위해 노력 하는 박정수 라고 합니다.\n'
+    +
+    '지금까지는 주로 java와 C# oracle 을 이용한 개발을 해왔습니다.\n'
+    +
+    '관심을 가지고 있는 기술은 react, spring 입니다.\n\n'
+
+
+    +
+    '득어망전 : 고기를 잡으면 어망을 잊는다 라는 말이 있습니다. \n'
+    +
+    '기술에만 너무 깊이 파고드는 것이 아닌,\n'
+    +
+    '내가 만들고자하는 것이 무엇이고, 무엇을 목표로 해야하는지\n'
+    +
+    '잊지 않는 개발자가 되겠습니다.\n\n'
+
+
+    +
+    '잘부탁드립니다.\n'
+    +
+    '감사합니다.\n'
+    +
+    '박정수 드림'
   },
 };
 
