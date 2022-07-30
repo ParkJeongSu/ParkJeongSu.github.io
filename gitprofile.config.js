@@ -13,13 +13,13 @@ const config = {
   social: {
     linkedin: 'https://www.linkedin.com/in/jeongsu-park-b37639118/',
     twitter: '',
-    facebook: 'https://www.facebook.com/marrow.Jeongsu',
+    facebook: 'marrow.Jeongsu',
     instagram: '',
     dribbble: '',
     behance: '',
     medium: '',
     dev: '',
-    website: 'https://arifszn.github.io',
+    website: 'https://jeongsu.tistory.com/135',
     phone: '010-4767-6182',
     email: 'pjs91_marrow@naver.com',
   },
@@ -37,36 +37,42 @@ const config = {
   ],
   experiences: [
     {
-      company: 'Monstarlab Bangladesh',
-      position: 'Backend Engineer II',
-      from: 'September 2021',
-      to: 'Present',
+      company: 'LG CNS',
+      position: 'MES 개발자',
+      from: '2022.04',
+      to: '현재',
     },
     {
-      company: 'My Offer 360 Degree',
-      position: 'Web Application Developer',
-      from: 'July 2019',
-      to: 'August 2021',
+      company: '에임시스템',
+      position: 'MES 개발자',
+      from: '2018.04',
+      to: '2021.11',
+    },
+    {
+      company: '티켓몬스터',
+      position: '인턴',
+      from: '2017.06',
+      to: '2017.08',
+    },
+    {
+      company: '대원씨앤씨',
+      position: '인턴',
+      from: '2016.09',
+      to: '2016.11',
     },
   ],
   education: [
     {
-      institution: 'American International University-Bangladesh',
-      degree: 'Bachelor of Science',
-      from: '2015',
-      to: '2019',
+      institution: '가톨릭대학교',
+      degree: '컴퓨터정보공학부 학사',
+      from: '2018',
+      to: '2011',
     },
     {
-      institution: 'Cantonment College, Jessore',
-      degree: 'Higher Secondary Certificate (HSC)',
-      from: '2012',
-      to: '2014',
-    },
-    {
-      institution: 'Chowgacha Shahadat Pilot High School',
-      degree: 'Secondary School Certificate (SSC)',
+      institution: '광명고등학교',
+      degree: '이과',
       from: '2007',
-      to: '2012',
+      to: '2010',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
@@ -77,11 +83,11 @@ const config = {
   },
   googleAnalytics: {
     // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-    id: 'G-WLLB5E14M6', // Please remove this and use your own tag id or keep it empty
+    // id: 'G-WLLB5E14M6', // Please remove this and use your own tag id or keep it empty
   },
   hotjar: {
-    id: '2617601', //  Please remove this and use your own id or keep it empty
-    snippetVersion: 6,
+    // id: '2617601', //  Please remove this and use your own id or keep it empty
+    // snippetVersion: 6,
   },
   themeConfig: {
     defaultTheme: 'corporate',
