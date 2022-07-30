@@ -160,7 +160,7 @@ const CompanyProject = ({ }) => {
                               <br></br>
                               기타
                               <ul>
-                                <li>트러블 슈팅 : ap log ,db history, oracle AWR 분석</li>
+                                <li>트러블 슈팅 : ap log ,GC Log, db history, oracle AWR 분석</li>
                                 <li>mantis 관리자 및 프로젝트 이슈 confluence 기록</li>
                                 <li>고객과 직접 소통 요구사항 분석</li>
                                 <li>1일 트랜잭션 200만건 ~ 300만건</li>
@@ -225,7 +225,7 @@ const CompanyProject = ({ }) => {
                               <br></br>
                               기타
                               <ul>
-                                <li>트러블 슈팅 : ap log ,db history, oracle AWR 분석</li>
+                                <li>트러블 슈팅 : ap log ,GC Log, db history, oracle AWR 분석</li>
                                 <li>mantis 관리자 및 프로젝트 이슈 confluence 기록</li>
                                 <li>고객과 직접 소통 요구사항 분석</li>
                                 <li>1일 트랜잭션 200만건 ~ 300만건</li>
