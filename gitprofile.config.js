@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: '박정수', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,33 +11,29 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    facebook: '',
+    linkedin: 'https://www.linkedin.com/in/jeongsu-park-b37639118/',
+    twitter: '',
+    facebook: 'https://www.facebook.com/marrow.Jeongsu',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     website: 'https://arifszn.github.io',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    phone: '010-4767-6182',
+    email: 'pjs91_marrow@naver.com',
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
+    'JAVA',
+    'C#',
+    'javascript',
     'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
+    'python',
+    'Oracle',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
-    'Bootstrap',
+    'Spring boot',
+    'MUI',
   ],
   experiences: [
     {
